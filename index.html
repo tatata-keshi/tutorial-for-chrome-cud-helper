@@ -24,7 +24,7 @@
     <section id="about">
         <h2>このツールについて</h2>
         <p>
-            Chrome CUD Helperは、カラーユニバーサルデザインを取り入れたフロントエンド実装の実現を目的としたエンジニア向け開発支援ツールです。<br>
+            Chrome CUD Helperは、<strong>カラーユニバーサルデザインを取り入れたフロントエンド実装の実現</strong>を目的としたエンジニア向け開発支援ツールです。<br>
             このツールは、以下の機能を持ちます。
         </p>
         <ol>
@@ -34,34 +34,38 @@
     </section>
     <section id="installation">
         <h2>インストール方法</h2>
-        <p>
-            <a href="https://github.com/tatata-keshi/chrome-cud-helper">このリンク</a>からGitHubリポジトリページにアクセスして、右側にある<strong>Releases</strong>から<strong>Latest</strong>と表示されているバージョンを選択してください。
-        </p>
-        <img src="img/01.png" alt="01">
-        <p>
-            <strong>Source Code (Zip)</strong>を選択して、zipファイルをダウンロードしてください。
-        </p>
-        <img src="img/02.png" alt="02">
-        <p>
-            ダウンロードしたzipファイルを解凍してください。
-        </p>
-        <img src="img/03.png" alt="03">
-        <p>
-            Google Chromeを開き、右上のメニューから<strong>Extensions &rAarr; Manage Extensions</strong>を選択してください。
-        </p>
-        <img src="img/04.png" alt="04">
-        <p>
-            <strong>Load Unpacked</strong>を選択してください。もし表示されない場合は右上のトグルボタンで<strong>Developer mode</strong>を有効にしてください。
-        </p>
-        <img src="img/05.png" alt="05">
-        <p>
-            解凍したフォルダを選択してください。
-        </p>
-        <img src="img/06.png" alt="06">
-        <p>
-            拡張機能一覧に<strong>Chrome CUD Helper</strong>が表示されていればインストール完了です。
-        </p>
-        <img src="img/07.png" alt="07">
+        <ol>
+            <li>
+                <a href="https://github.com/tatata-keshi/chrome-cud-helper">このリンク</a>からGitHubリポジトリページにアクセスして、右側にある<strong>Releases</strong>から<strong>Latest</strong>と表示されているバージョンを選択してください。<br>
+                <img src="img/01.png" alt="01">
+            </li>
+            <li>
+                <strong>Source Code (Zip)</strong>を選択して、zipファイルをダウンロードしてください。<br>
+                <img src="img/02.png" alt="02">
+            </li>
+            <li>
+                ダウンロードしたzipファイルを解凍してください。<br>
+                <img src="img/03.png" alt="03">
+            </li>
+            <li>
+                Google Chromeを開き、右上のメニューから<strong>Extensions &rAarr; Manage Extensions</strong>を選択してください。<br>
+                <img src="img/04.png" alt="04" style="width: 25%">
+            </li>
+            <li>
+                <strong>Load Unpacked</strong>を選択してください。もし表示されない場合は右上のトグルボタンで<strong>Developer mode</strong>を有効にしてください。<br>
+                <img src="img/05.png" alt="05">
+            </li>
+            <li>
+                解凍したフォルダを選択してください。<br>
+                <img src="img/06.png" alt="06">
+            </li>
+            <li>
+                拡張機能一覧に<strong>Chrome CUD Helper</strong>が表示されていればインストール完了です。<br>
+                <img src="img/07.png" alt="07">
+            </li>
+        </ol>
+
+
     </section>
     <section id="simulation">
         <h2>色覚異常シミュレーション機能</h2>
@@ -75,13 +79,60 @@
                 「Protanopia（1型2色覚）」「Deuteranopia（2型2色覚）」「Tritanopia（3型2色覚）」のいずれかを選択してください。<br>
                 <img src="img/08.png" alt="08">
             </li>
-            <li>選択した症例の視点を模したフィルターが適用されます。</li>
+            <li>
+                このページでフィルターを適用してみてください。下のカラーバーの色が変化します。<br>
+                <div class="rainbow-bar">
+                    <div class="color red"></div>
+                    <div class="color orange"></div>
+                    <div class="color yellow"></div>
+                    <div class="color green"></div>
+                    <div class="color blue"></div>
+                    <div class="color indigo"></div>
+                    <div class="color violet"></div>
+                    <div class="color pink"></div>
+                    <div class="color cyan"></div>
+                    <div class="color magenta"></div>
+                </div>
+            </li>
             <li>「未選択」を選ぶとフィルターが解除されます。</li>
         </ol>
     </section>
     <section id="comparison">
         <h2>色比較ツール</h2>
-        <p>この機能は、複数の要素の文字色と</p>
+        <p>この機能では画面上の複数の要素を選択し、その要素の文字色と背景色のフィルター適用前後の色を表示します。これにより、カラーユニバーサルデザインに準じた色の組み合わせを見つけることができます。</p>
+        <img src="img/09.png" alt="09" style="width: 25%">
+        <h3>使い方</h3>
+        <ol>
+            <li>
+                Chrome CUD Helperのアイコンをクリックします。そして「メニューを開く」を選択します。するとオーバーレイが表示されます。<br>
+                <img src="img/10.png" alt="10">
+            </li>
+            <li>
+                オーバーレイ上の「選択モード」ボタンを押してください。すると、画面上の要素を選択できるようになります。<br>
+                <img src="img/11.png" alt="11" style="width: 25%">
+            </li>
+            <li>
+                色を比較したい要素をクリックしてください。すると、その要素の文字色と背景色が表示されます。<br>
+                試しに下の「Click Me 1」と書かれた図形をクリックしてください。下の画像のようになるはずです。<br>
+                <div class="click-me-1">Click Me 1</div><br>
+                <img src="img/12.png" alt="12" style="width: 25%">
+            </li>
+            <li>
+                他の要素も同様にクリックしてください。複数の要素を比較することができます。<br>
+                試しに下の「Click Me 2」と書かれた図形をクリックしてください。下の画像のようになるはずです。<br>
+                <div class="click-me-2">Click Me 2</div><br>
+                <img src="img/13.png" alt="13" style="width: 25%">
+            </li>
+            <li>
+                この状態で「色覚以上シミュレーション」機能でフィルターを適用すると、フィルター適用前後の色を比較することができます。<br>
+                例えば、「Protanopia（1型2色覚）」を選択すると、下の画像のようになります。<br>
+                <img src="img/14.png" alt="14" style="width: 25%">
+            </li>
+            <li>
+                R,G,Bそれぞれのスライダーを動かすことで、フィルター適用前後の色を調整することができます。<br>
+                <img src="img/15.png" alt="15">
+            </li>
+        </ol>
     </section>
 </main>
 </body>

@@ -1,3 +1,60 @@
+body {
+    padding-left: 48px;
+}
+
 img {
-    max-width: 70%;
+    margin: 16px 0;
+    max-width: 50%;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.rainbow-bar {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    height: 50px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 32px 0;
+}
+
+.color {
+    flex: 1;
+    height: 100%;
+}
+
+/* 色の定義 */
+.red { background-color: #ff0000; }
+.orange { background-color: #ff7f00; }
+.yellow { background-color: #ffff00; }
+.green { background-color: #00ff00; }
+.blue { background-color: #0000ff; }
+.indigo { background-color: #4b0082; }
+.violet { background-color: #9400d3; }
+.pink { background-color: #ff1493; }
+.cyan { background-color: #00ffff; }
+.magenta { background-color: #ff00ff; }
+
+.click-me-1 {
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: #fa572b;
+    color: #2bd1f6;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 16px 0;
+}
+
+.click-me-2 {
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: #2fdb80;
+    color: #3d47d8;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 16px 0;
 }
